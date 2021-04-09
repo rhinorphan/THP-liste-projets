@@ -1,7 +1,7 @@
 
 
 function sendGitData(name, repoName, url) {
- document.querySelectorAll("button[value="+name+"]")[0].innerHTML  ='<button id="btn_get_repos" href="'+ url +'" class="repo_class btn btn-primary" value="tepepeka">'+repoName+'</button>'
+ document.querySelectorAll("button[value="+name+"]")[0].innerHTML  ='<a target="blank" href="'+ url +'"><button id="btn_get_repos"   class="repo_class btn btn-primary" value="tepepeka">'+repoName+'</button></a>'
 }
 
 async function getApi(name) {
@@ -9,9 +9,9 @@ async function getApi(name) {
     let data = await response.json()
     let git = data[data.length-1]
     let repoName = git.name
-    let url =  git.url
+    let url =  git.html_url
     let nameUser = git.owner.login
-    console.log(nameUser, url, repoName);
+    console.log(git);
     sendGitData(nameUser, repoName, url) 
 }
 
