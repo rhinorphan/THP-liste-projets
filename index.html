@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <script src="https://kit.fontawesome.com/cf3f3bfcb0.js" crossorigin="anonymous"></script> 
   <title>Liste Projets THP</title>
 </head>
@@ -25,37 +27,47 @@
       <img class="card-img-top" src="https://resize-parismatch.lanmedia.fr/r/625,417,center-middle,ffffff/img/var/news/storage/images/paris-match/animal-story/photos/ithuba-le-rhinoceros-ne-quitte-plus-son-soigneur-907415/la-belle-complicite-entre-ithuba-le-rhinoceros-et-son-soigneur-au-sein-de-la-reserve-de-thula-thula-en-afrique-du-sud2/9624185-1-fre-FR/La-belle-complicite-entre-Ithuba-le-rhinoceros-et-son-soigneur-au-sein-de-la-reserve-de-Thula-Thula-en-Afrique-du-Sud.jpg" alt="Card image">
       <div class="card-body text-center">
         <h4 class="card-title">Axel Tarifa</h4>
-        <p class="card-text">< !-- AKA Rhino Man --></p>
+        <p class="card-text">&lsaquo; !-- AKA Rhino Man --&rsaquo;</p>
         <a href="https://rhinorphan.github.io/google_replica/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Réplique Google</a>
         <a href="https://rhinorphan.github.io/the-surfing-project/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Réplique The Surfing Project</a>
+        <button id="btn_get_repos" class="repo_class" value="rhinorphan">get</button>
+
       </div>
     </div>
     <div class="card" style="width:300px">
       <img class="card-img-top" src="https://images.pexels.com/photos/2294531/pexels-photo-2294531.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Card image">
       <div class="card-body text-center">
         <h4 class="card-title">Jérémy Bourgoin</h4>
-        <p class="card-text">< !-- AKA El Gato Negro --></p>
+        <p class="card-text">&lsaquo; !-- AKA El Gato Negro -- &rsaquo; </p>
         <a href="#" class="btn btn-primary">Réplique Google</a>
         <a href="https://tepepeka.github.io/surf/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Réplique The Surfing Project</a>
+        <button id="btn_get_repos" class="repo_class" value="Tepepeka">get</button>
       </div>
     </div>
     <div class="card" style="width:300px">
       <img class="card-img-top" src="https://images.pexels.com/photos/5273714/pexels-photo-5273714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image">
       <div class="card-body text-center">
         <h4 class="card-title">Clarisse Schmitt</h4>
-        <p class="card-text">< !-- AKA La Cabrita --></p>
+        <p class="card-text">&lsaquo; !-- AKA La Cabrita -- &rsaquo;</p>
         <a href="#" class="btn btn-primary">Réplique Google</a>
         <a href="#" class="btn btn-primary">Réplique The Surfing Project</a>
+        <button id="btn_get_repos" class="repo_class" value="SchmittClarisse">get</button>
+
       </div>
     </div>
     <div class="card" style="width:300px">
       <img class="card-img-top" src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image">
       <div class="card-body text-center">
-        <h4 class="card-title">En construction <i class="fas fa-sad-tear"></i></h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#" class="btn btn-primary"><i class="fas fa-cloud-download-alt"></i></a>
+        <h4 class="card-title">Léo Lair</h4>
+        <p class="card-text">&lsaquo; !-- AKA dev sur google -- &rsaquo; </p>
+        <a href="#" class="btn btn-primary">Git hub</a>
+        <button id="btn_get_repos" class="repo_class" value="Lehoax">get</button>
       </div>
     </div>
+   
   </div> 
+<p id="lala"></p>
+
 </body>
+<script src="./index.js"></script>
 </html>
