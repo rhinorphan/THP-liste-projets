@@ -1,6 +1,6 @@
 
 <div class="card" style="width:300px;margin-bottom: 20px;">
-      <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/11/07/23/51/chess-3801531_960_720.jpg" alt="Card image">
+      <img class="card-img-top" src="ton image" alt="Card image">
       <div class="card-body text-center">
         <h4 class="card-title">NAME </h4>
         <p class="card-text">&lsaquo; !-- AKA PSEUDO -- &rsaquo; </p>
